@@ -733,3 +733,26 @@ section,
   }
 }
 
+/* 
+# STATS
+ */
+
+ .stats .stats-item {
+  padding: 30px;
+  width: 100%;
+ }
+
+ .stats .stats-item i {
+  color: var(--accent-color);
+  display: block;
+  font-size: 44px;
+  float: left;
+ }
+
+ .stats .stats-item .purecounter {
+  color: var(--heading-color);
+  display: block;
+  font-size: 48px;
+  margin-left: 60px;
+  font-weight: 700;
+ }

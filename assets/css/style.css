@@ -1025,8 +1025,16 @@ section,
 
 /* Team */
 
-.team img {
-  width: 250px;
+.team .member {
+  position: relative;
+  overflow: hidden;
+}
+
+.team .member .member-info {
+  position: absolute;
+  opacity: 0;
+  inset: 0;
+  transition: all 0.2s ease-in;
 }
 /* 
  # Scroll to top

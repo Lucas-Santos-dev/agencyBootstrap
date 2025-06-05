@@ -1291,19 +1291,22 @@ section,
 }
 
 .footer .newsletter-form input[type = submit]:hover {
-  background: #2e628f;
+  background: #2e628fb0;
+}
+
+.footer .copyright{
+  padding: 25px 0;
+  border-top: solid 1px #2e628f;
 }
 
 .footer .copyright p {
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 
 .footer .credits {
   margin-top: 6px;
   font-size: 16px;
 }
-
-
 
 /* 
  # Scroll to top
